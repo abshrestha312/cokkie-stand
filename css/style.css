@@ -1,0 +1,56 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    border: medium solid rgb(36, 223, 36);
+    height: 300px;
+    align-items:center;
+    background-color: aqua;
+
+  }
+
+header img {
+    border: 8px solid rgba(5, 212, 57, 0.925);
+    border-style:groove;
+    border-radius: 50%;
+    padding: 5px;
+    width: 500px;
+    height:200px;
+}
+  
+  header ul {
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      height: 30px;
+
+  }
+
+
+#foot hr{
+ 
+    background: url('/images/logo-3268177_640.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+#foot hr:before,
+#foot hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+}
+#foot hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+#foot hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
